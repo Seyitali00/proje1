@@ -11,3 +11,5 @@ print("╚═════════════════════╝")
 secim=input("Seçiminizi yapiniz : ")  
 if secim == "1" : print("Hesap Makinesi seçildi")
 import aramenu
+if secim == "2" : print("Oyunlar Secildi")
+import aramenu2
