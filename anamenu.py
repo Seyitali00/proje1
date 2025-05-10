@@ -19,4 +19,5 @@ def anamenu():
     if secim == "2" : 
         print("Oyunlar Secildi")
         aramenu2.menu2()
-        anamenu()
+        
+anamenu()
