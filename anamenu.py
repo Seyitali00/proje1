@@ -7,9 +7,10 @@ def anamenu():
     print("║  1-Hesap Makinesi   ║")
     print("║  2-Oyunlar          ║")
     print("║  3-Çizim            ║")
-    print("║  4-Çikis yap        ║")
+    print("║  4-Hava Durumu      ║")
+    print("║  5-Çikis yap        ║")
     print("║                     ║")
-    print("║    Seçim yapin      ║") 
+    print("║                     ║") 
     print("╚═════════════════════╝")
     secim=input("Seçiminizi yapiniz : ")  
     if secim == "1" :
