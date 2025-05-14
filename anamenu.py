@@ -1,5 +1,5 @@
-import aramenu2
 import aramenu
+import aramenu2
 def anamenu():
     print("\33[1;31;40m")
     print("╔═════════════════════╗")
@@ -16,7 +16,7 @@ def anamenu():
     if secim == "1" :
         print("Hesap Makinesi seçildi")
         aramenu.aramenu()
-        anamenu()
+        
     if secim == "2" : 
         print("Oyunlar Secildi")
         aramenu2.menu2()

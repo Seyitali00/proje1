@@ -10,12 +10,34 @@ def aramenu():
     print("║    Seçim yapin      ║") 
     print("╚═════════════════════╝")
     secim=input("Seçiminizi yapiniz : ")  
-    if secim == "1" : print("Toplama seçildi")
-    if secim == "2" : print("Çikarma seçildi")    
-    if secim == "3" : print("Bölme seçildi")   
-    if secim == "4" : print("Çarpma seçildi")  
-    if secim == "5" : print("Çikis yapildi")    
-    if secim in ["1","2","3","4","5"]: pass
-    else: print("Yanlis secim yaptiniz")
-    toplama = input("toplamak istediğiniz sayıları giriniz:")
-    if toplama in ["1","2","3","4","5","6","7","8","9","0"]: pass
+    if secim == "1" :
+        print("Toplama seçildi")
+        sayi1 = float(input("1.sayıyı girin:"))
+        sayi2 = float(input("2.sayıyı girin:"))
+        print("Sonuç:",sayi1+sayi2)
+        
+    elif secim == "2" : 
+        print("Çikarma seçildi")  
+        sayi1 = float(input("1.sayıyı girin:"))
+        sayi2 = float(input("2.sayıyı girin:"))
+        print("Sonuç:",sayi1-sayi2) 
+        
+    elif secim == "3" : 
+        print("Bölme seçildi")
+        sayi1 = float(input("1.sayıyı girin:"))
+        sayi2 = float(input("2.sayıyı girin:"))
+        if sayi2 == 0 : 
+            print("Sıfıra bölüm olmaz")
+        else: print("Sonuç:",sayi1/sayi2)
+        
+    elif secim == "4" : 
+        print("Çarpma seçildi") 
+        sayi1 = float(input("1.sayıyı girin:"))
+        sayi2 = float(input("2.sayıyı girin:"))
+        print("Sonuç:",sayi1*sayi2)
+          
+    elif secim== "5":
+        print("Çıkış yapıldı")
+
+ 
+    aramenu()

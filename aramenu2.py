@@ -11,6 +11,12 @@ def menu2():
     print("╚═════════════════════╝")
 
     secim=input("Seçiminizi yapiniz : ")  
-    if secim == "1" : print("Tetris Seçildi")
+    if secim == "1" : 
+        print("Tetris Seçildi")
+        import tetris
+        tetris.tetris()
+        
+        
     if secim == "2" : print("Adam asmaca seçildi")
     if secim == "3" : print("Yilan Seçildi")
+menu2()
