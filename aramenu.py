@@ -6,7 +6,7 @@ def aramenu():
     print("║  2-Çikarma          ║")
     print("║  3-Bölme            ║")
     print("║  4-Çarpma           ║")
-    print("║  5-Çikis yapin      ║")
+    print("║  5-Anamenuye don    ║")
     print("║    Seçim yapin      ║") 
     print("╚═════════════════════╝")
     secim=input("Seçiminizi yapiniz : ")  
@@ -37,7 +37,9 @@ def aramenu():
         print("Sonuç:",sayi1*sayi2)
           
     elif secim== "5":
-        print("Çıkış yapıldı")
+        print("Ana menü açılıyor...")
+        import anamenu
+        anamenu()
 
  
-    aramenu()
+    
