@@ -217,4 +217,4 @@ def tetris():
         clock.tick(fps)
 
     pygame.quit()
-tetris()
+    tetris()
