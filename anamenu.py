@@ -26,5 +26,8 @@ def anamenu():
         print ("Çizim Seçildi")
         aram3.cizim()
 
+    if secim == "4" :
+        print("Hava Durumu Seçildi")
+
         
 anamenu()
