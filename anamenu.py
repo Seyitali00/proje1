@@ -1,6 +1,7 @@
 import aramenu
 import aramenu2
 import aram3
+import aram4
 def anamenu():
     print("\33[1;31;40m")
     print("╔═════════════════════╗")
@@ -28,6 +29,7 @@ def anamenu():
 
     if secim == "4" :
         print("Hava Durumu Seçildi")
+        aram4.havadurumu()
 
         
 anamenu()
